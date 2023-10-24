@@ -4,6 +4,7 @@
 import { QueryClient, QueryClientProvider, useQuery } from 'react-query'
 import CategoryItem from "./items/CategoryItem";
 import HouseItem from './items/HouseItem';
+import { it } from 'node:test';
 
 const queryClient = new QueryClient()
 
@@ -25,12 +26,21 @@ function Poriduct() {
     console.log(data);
     if (isLoading) return (<div className="  relative max-w-screen-2xl gap-3 mx-auto grid grid-cols-12  my-2 " > Loading</div>)
 
-    if (error) return 'An error has occurred: ' + error.message
+    if (error) return 'An error has occurred: ' + error
 
     return (
         <div className=" relative max-w-screen-2xl gap-3 mx-auto grid grid-cols-12  my-2 " >
             {data.map((item: any, i: any) => (
-                <HouseItem key={i} id={1} title={item.title} img={''} />
+                <HouseItem 
+                    key={i} id={1} 
+                    title={item.title} 
+                    location={item.location}
+                    price={item.price}
+                    duration={item.duration}
+                    images={item.images}
+                    offers={item.offers}
+                    features={item.features}
+                />
             ))}
         </div>
     )

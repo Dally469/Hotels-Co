@@ -27,7 +27,7 @@ function Category() {
         
         </div></div>)
 
-    if (error) return 'An error has occurred: ' + error.message
+    if (error) return 'An error has occurred: ' + error
 
     return (
         <div className="bg-white w-full h-auto   py-6 sticky  top-20 hidden sm:block z-20">
