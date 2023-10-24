@@ -3,7 +3,7 @@ import { BsFacebook, BsSearch, BsChevronDown, BsMenuButton } from "react-icons/b
 import { TiThMenu } from "react-icons/ti"
 import Image from "next/image";
 const HeaderTop = () => {
-    return <div className="bg-white w-full h-28 border-b border-gray-300 py-4 sticky  -top-0 hidden sm:block">
+    return <div className="bg-white w-full h-28 border-b border-gray-300 py-4 sticky z-20 -top-0 hidden sm:block">
         <div className="container sm:flex justify-between my-4 items-center">
             <div className="font-medium text-4xl text-clip pb-0 sm:bg-0">
             <Image src={'/logoh.png'} alt="Profile"  height={100} width={150}/>

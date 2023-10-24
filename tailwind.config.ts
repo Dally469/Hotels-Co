@@ -10,7 +10,7 @@ const config: Config = {
     extend: {
        container:{
         center: true,
-        padding: "20px"
+        padding: "10px"
        },
        colors:{
         accent: "#3dccc7",
