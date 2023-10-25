@@ -69,39 +69,38 @@ const ProductDeatils = () => {
                         <img src="/santorini_2.png" className="w-full h-full rounded-full  object-cover" />
                     </div>
                 </div>
-                <div className="hidden py-12 space-y-4 border-b">
+                <div className="  py-8 space-y-4 border-b">
                     <div className="flex gap-3 ">
-                        <MdPool size={50} className="text-gray-400" />
+                        <MdPool size={30} className="text-gray-400" />
                         <div className="flex-col gap-2">
                             <div className="font-medium text-lg text-green-500">Self Check-in</div>
                             <div className="font-light text-sm"> Check yourself in with smart lock</div>
                         </div>
                     </div>
                     <div className="flex gap-3 ">
-                        <MdPool size={50} className="text-green-400" />
+                        <MdPool size={30} className="text-gray-400" />
                         <div className="flex-col gap-2">
-                            <div className="font-medium text-lg">Great location</div>
+                            <div className="font-medium text-lg text-green-500">Great location</div>
                             <div className="font-light text-sm"> Check yourself in with smart lock</div>
                         </div>
                     </div>
                     <div className="flex gap-3 ">
-                        <MdPool size={50} className="text-green-400" />
+                        <MdPool size={30} className="text-gray-400 " />
                         <div className="flex-col gap-2">
-                            <div className="font-medium text-lg">Park for free</div>
+                            <div className="font-medium text-lg text-green-500">Park for free</div>
                             <div className="font-light text-sm"> Check yourself in with smart lock</div>
                         </div>
                     </div>
                 </div>
                 <div className="flex pt-12">
-                    <div className="hidden">
+                    <div className=" ">
                         <div className="leading font-medium  text-primary text-xl">More information </div>
                         <div className="font-light py-6 ">10 guests - 4 bedrooms - 8 beds - 3 baths Free cancellation before 3 PM. Cancel before check-in on 12 November for partial refund Free cancellation before 3 PM. Cancel before check-in on 12 November for partial refund
-                            Free cancellation before 3 PM. Cancel before check-in on 12 November for partial refund Free cancellation before 3 PM. <br /> Cancel before check-in on 12 November for partial refund Free cancellation before 3 PM. Cancel before check-in on 12 November for partial refund
-                            Free cancellation before 3 PM. Cancel before check-in on 12 November for partial refundFree cancellation before 3 PM. Cancel before check-in on 12 November for partial refund</div>
+                            Free cancellation before 3 PM. Cancel before check-in on 12 November for partial refund Free cancellation before 3 PM. <br />  fore check-in on 12 November for partial refund</div>
                     </div>
                 </div>
 
-                <div className="py-12 border-b space-y-4" >
+                <div className="hidden py-12 border-b space-y-4" >
                     <div className="font-bold">Where  we will sleep</div>
 
                     <div className="flex gap-3 w-full justify-between items-center">

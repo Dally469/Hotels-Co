@@ -3,13 +3,13 @@ import HouseItem from '@/components/items/HouseItem'
 import ProductHome from '@/components/ProductHome'
 import ProductDeatils from '@/components/ProductDetails'
 
-export default function Home() {
+export default function Details() {
   return (
     <main className="flex container  flex-col items-center justify-between  ">
-      <div className="min-h-full w-full h-full py-2 ">
+      <div className=" w-full h-auto py-2 ">
        
-       <ProductHome />
-       </div>
+        <ProductDeatils />
+      </div>
     </main>
   )
 }

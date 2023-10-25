@@ -42,13 +42,13 @@ function Category() {
                 </div>
                 <div className="flex w-1/5 p-4 gap-3 items-center">
                     <div className="flex items-center group cursor-pointer hover:border-green-400 duration-500 mx-1 rounded-xl gap-1 py-2 px-2 border border-gray-200">
-                        <BsFilter size={27} className="duration-500  group-hover:text-green-500" />
-                        <div className="text-sm font-medium group-hover:text-green-500  duration-500 px-2">Filters</div>
+                        <BsFilter size={27} className="duration-500 text-black group-hover:text-green-500" />
+                        <div className="text-sm font-medium group-hover:text-green-500 text-black duration-500 px-2">Filters</div>
 
                     </div>
                     <div className="flex items-center w-full  rounded-xl gap-1 py-3 px-2 border border-gray-200">
-                        <BsChevronDown size={20} />
-                        <div className="text-sm font-medium px-2">Display total  </div>
+                        <BsChevronDown size={20} className="text-black" />
+                        <div className="text-sm font-medium text-black px-2">Display total  </div>
 
                     </div>
                 </div>

@@ -6,7 +6,7 @@ import { BsHeart, } from "react-icons/bs";
 import { IoBedOutline, } from "react-icons/io5";
 import { MdPool, MdOutlinePark } from "react-icons/md";
 import Image from 'next/image';
-
+import Link from 'next/link'
 
 var settings = {
     dots: false,
@@ -63,7 +63,8 @@ const HouseItem: React.FC<propsType> = ({ id, title, location, images, offers, f
             </div>
             <div className="flex items-center justify-between">
                 <p className="block font-sans hover:text-green-500 cursor-pointer duration-500 text-base font-medium leading-relaxed text-blue-gray-900 antialiased">
-                    {title}
+                   
+                    <Link href={`/details`}> {title}</Link>
                 </p>
             </div>
             <p className=" font-sans text-xs font-normal   text-gray-700 antialiased opacity-75">
